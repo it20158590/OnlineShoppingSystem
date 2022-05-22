@@ -1,11 +1,7 @@
-package com.example.OnlineShoppingSystem;
+package com.example.online.shopping.system;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
-
-import com.example.OnlineShoppingSystem.controller.SellerController;
 
 @SpringBootApplication
 //@ComponentScan(basePackageClasses=SellerController.class)

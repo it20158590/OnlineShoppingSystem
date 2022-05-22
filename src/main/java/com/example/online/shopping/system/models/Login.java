@@ -1,6 +1,5 @@
-package com.example.OnlineShoppingSystem.models;
+package com.example.online.shopping.system.models;
 
-import lombok.Data;
 import lombok.NonNull;
 
 import javax.persistence.Column;

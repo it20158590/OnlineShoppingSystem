@@ -1,4 +1,4 @@
-package com.example.OnlineShoppingSystem.dto;
+package com.example.online.shopping.system.dto;
 
 public class LoginResponseDTO {
     private String loginStatus;

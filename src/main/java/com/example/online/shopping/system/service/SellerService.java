@@ -1,4 +1,4 @@
-package com.example.OnlineShoppingSystem.service;
+package com.example.online.shopping.system.service;
 
 
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.OnlineShoppingSystem.models.Seller;
-import com.example.OnlineShoppingSystem.repository.SellerRepository;
+import com.example.online.shopping.system.models.Seller;
+import com.example.online.shopping.system.repository.SellerRepository;
 
 import java.util.List;
 

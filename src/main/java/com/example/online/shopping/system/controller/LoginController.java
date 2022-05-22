@@ -1,14 +1,14 @@
-package com.example.OnlineShoppingSystem.controller;
+package com.example.online.shopping.system.controller;
 
-import com.example.OnlineShoppingSystem.dto.LoginResponseDTO;
+import com.example.online.shopping.system.dto.LoginResponseDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.OnlineShoppingSystem.models.Login;
-import com.example.OnlineShoppingSystem.service.LoginService;
+import com.example.online.shopping.system.models.Login;
+import com.example.online.shopping.system.service.LoginService;
 
 @RestController
 public class LoginController {
