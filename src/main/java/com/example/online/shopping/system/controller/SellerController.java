@@ -1,4 +1,4 @@
-package com.example.OnlineShoppingSystem.controller;
+package com.example.online.shopping.system.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.OnlineShoppingSystem.models.Seller;
-import com.example.OnlineShoppingSystem.service.SellerService;
+import com.example.online.shopping.system.models.Seller;
+import com.example.online.shopping.system.service.SellerService;
 
 import java.util.ArrayList;
 import java.util.List;

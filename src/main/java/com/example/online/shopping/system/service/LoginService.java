@@ -1,12 +1,12 @@
-package com.example.OnlineShoppingSystem.service;
+package com.example.online.shopping.system.service;
 
-import com.example.OnlineShoppingSystem.dto.LoginResponseDTO;
+import com.example.online.shopping.system.dto.LoginResponseDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.OnlineShoppingSystem.models.Login;
-import com.example.OnlineShoppingSystem.repository.LoginRepository;
+import com.example.online.shopping.system.models.Login;
+import com.example.online.shopping.system.repository.LoginRepository;
 
 @Service
 @Transactional

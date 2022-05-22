@@ -1,4 +1,4 @@
-package com.example.OnlineShoppingSystem.models;
+package com.example.online.shopping.system.models;
 
 import javax.persistence.*; 
 
